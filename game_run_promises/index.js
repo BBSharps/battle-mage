@@ -4,7 +4,7 @@ const { round } = require("./round");
 const { thanks } = require("./thanks");
 const inquirer = require("inquirer");
 let saveAnswers = {};
-
+// hand is not updating. playing save choices over???
 exports.playGame = () => {
   title()
     .then((answers) => {
