@@ -1,0 +1,19 @@
+{
+  "name": "battlemage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.5",
+    "install": "^0.13.0",   
+    "npm": "^9.1.3"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  },
+  "description": ""
+}
