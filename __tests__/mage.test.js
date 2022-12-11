@@ -72,7 +72,7 @@ describe("Mage method test", () => {
       const result = ai.aiPlay();
       expect(result).toEqual([m, m, m]);
     });
-    test.only("aiPlay() should work with getHand() and the unused cards should go back in the deck", () => {
+    test("aiPlay() should work with getHand() and the unused cards should go back in the deck", () => {
       const ai = new Mage();
       ai.getHand();
       ai.aiPlay();

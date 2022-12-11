@@ -22,9 +22,9 @@ class Battle {
     this.playerDamage = playerAttack;
   }
   doDamage() {
-    this.player.deck = [...this.player.deck, ...this.player.cardsToPlay];
+    this.player.deck = [...this.player.cardsToPlay, ...this.player.deck];
     this.player.cardsToPlay = [];
-    this.ai.deck = [...this.ai.deck, ...this.ai.cardsToPlay];
+    this.ai.deck = [...this.ai.cardsToPlay, ...this.ai.deck];
     this.ai.cardsToPlay = [];
     this.player.HP = this.player.HP - this.aiDamage;
     this.ai.HP = this.ai.HP - this.playerDamage;

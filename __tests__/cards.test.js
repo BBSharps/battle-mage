@@ -1,7 +1,7 @@
-const { Mana_Card } = require("../cards");
-const { Fire_Card } = require("../cards_fire");
-const { Ice_Card } = require("../cards_ice");
-const { Earth_Card } = require("../cards_earth");
+const { Mana_Card } = require("../game_classes/cards");
+const { Fire_Card } = require("../game_classes/cards_fire");
+const { Ice_Card } = require("../game_classes/cards_ice");
+const { Earth_Card } = require("../game_classes/cards_earth");
 
 describe("Mana_Card class test", () => {
   test("Mana_Card is a Object", () => {

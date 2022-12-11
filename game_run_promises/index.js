@@ -11,271 +11,91 @@ exports.playGame = () => {
       return choseThreeCards(answers);
     })
     .then((answers) => {
-      if (answers.ai.HP <= 0) {
-        console.log("you win!");
-        return thanks();
-      } else if (answers.player.HP <= 0) {
-        console.log("you lose!");
-        return thanks();
-      } else if (answers.player.HP <= 0 && answers.ai.HP <= 0) {
-        console.log("its a draw");
-        return thanks();
-      } else if (answers.player.HP > 0 && answers.ai.HP > 0) {
-        console.log(`Round ${answers.round}`);
-        return round(answers);
-      }
+      return round(answers);
     })
     .then((answers) => {
       return choseThreeCards(answers);
     })
     .then((answers) => {
-      if (answers.ai.HP <= 0) {
-        console.log("you win!");
-        return thanks();
-      } else if (answers.player.HP <= 0) {
-        console.log("you lose!");
-        return thanks();
-      } else if (answers.player.HP <= 0 && answers.ai.HP <= 0) {
-        console.log("its a draw");
-        return thanks();
-      } else if (answers.player.HP > 0 && answers.ai.HP > 0) {
-        console.log(`Round ${answers.round}`);
-        return round(answers);
-      }
+      return round(answers);
     })
     .then((answers) => {
       return choseThreeCards(answers);
     })
     .then((answers) => {
-      if (answers.ai.HP <= 0) {
-        console.log("you win!");
-        return thanks();
-      } else if (answers.player.HP <= 0) {
-        console.log("you lose!");
-        return thanks();
-      } else if (answers.player.HP <= 0 && answers.ai.HP <= 0) {
-        console.log("its a draw");
-        return thanks();
-      } else if (answers.player.HP > 0 && answers.ai.HP > 0) {
-        console.log(`Round ${answers.round}`);
-        return round(answers);
-      }
+      return round(answers);
     })
     .then((answers) => {
       return choseThreeCards(answers);
     })
     .then((answers) => {
-      if (answers.ai.HP <= 0) {
-        console.log("you win!");
-        return thanks();
-      } else if (answers.player.HP <= 0) {
-        console.log("you lose!");
-        return thanks();
-      } else if (answers.player.HP <= 0 && answers.ai.HP <= 0) {
-        console.log("its a draw");
-        return thanks();
-      } else if (answers.player.HP > 0 && answers.ai.HP > 0) {
-        console.log(`Round ${answers.round}`);
-        return round(answers);
-      }
+      return round(answers);
     })
     .then((answers) => {
       return choseThreeCards(answers);
     })
     .then((answers) => {
-      if (answers.ai.HP <= 0) {
-        console.log("you win!");
-        return thanks();
-      } else if (answers.player.HP <= 0) {
-        console.log("you lose!");
-        return thanks();
-      } else if (answers.player.HP <= 0 && answers.ai.HP <= 0) {
-        console.log("its a draw");
-        return thanks();
-      } else if (answers.player.HP > 0 && answers.ai.HP > 0) {
-        console.log(`Round ${answers.round}`);
-        return round(answers);
-      }
+      return round(answers);
     })
     .then((answers) => {
       return choseThreeCards(answers);
     })
     .then((answers) => {
-      if (answers.ai.HP <= 0) {
-        console.log("you win!");
-        return thanks();
-      } else if (answers.player.HP <= 0) {
-        console.log("you lose!");
-        return thanks();
-      } else if (answers.player.HP <= 0 && answers.ai.HP <= 0) {
-        console.log("its a draw");
-        return thanks();
-      } else if (answers.player.HP > 0 && answers.ai.HP > 0) {
-        console.log(`Round ${answers.round}`);
-        return round(answers);
-      }
+      return round(answers);
     })
     .then((answers) => {
       return choseThreeCards(answers);
     })
     .then((answers) => {
-      if (answers.ai.HP <= 0) {
-        console.log("you win!");
-        return thanks();
-      } else if (answers.player.HP <= 0) {
-        console.log("you lose!");
-        return thanks();
-      } else if (answers.player.HP <= 0 && answers.ai.HP <= 0) {
-        console.log("its a draw");
-        return thanks();
-      } else if (answers.player.HP > 0 && answers.ai.HP > 0) {
-        console.log(`Round ${answers.round}`);
-        return round(answers);
-      }
+      return round(answers);
     })
     .then((answers) => {
       return choseThreeCards(answers);
     })
     .then((answers) => {
-      if (answers.ai.HP <= 0) {
-        console.log("you win!");
-        return thanks();
-      } else if (answers.player.HP <= 0) {
-        console.log("you lose!");
-        return thanks();
-      } else if (answers.player.HP <= 0 && answers.ai.HP <= 0) {
-        console.log("its a draw");
-        return thanks();
-      } else if (answers.player.HP > 0 && answers.ai.HP > 0) {
-        console.log(`Round ${answers.round}`);
-        return round(answers);
-      }
+      return round(answers);
     })
     .then((answers) => {
       return choseThreeCards(answers);
     })
     .then((answers) => {
-      if (answers.ai.HP <= 0) {
-        console.log("you win!");
-        return thanks();
-      } else if (answers.player.HP <= 0) {
-        console.log("you lose!");
-        return thanks();
-      } else if (answers.player.HP <= 0 && answers.ai.HP <= 0) {
-        console.log("its a draw");
-        return thanks();
-      } else if (answers.player.HP > 0 && answers.ai.HP > 0) {
-        console.log(`Round ${answers.round}`);
-        return round(answers);
-      }
+      return round(answers);
     })
     .then((answers) => {
       return choseThreeCards(answers);
     })
     .then((answers) => {
-      if (answers.ai.HP <= 0) {
-        console.log("you win!");
-        return thanks();
-      } else if (answers.player.HP <= 0) {
-        console.log("you lose!");
-        return thanks();
-      } else if (answers.player.HP <= 0 && answers.ai.HP <= 0) {
-        console.log("its a draw");
-        return thanks();
-      } else if (answers.player.HP > 0 && answers.ai.HP > 0) {
-        console.log(`Round ${answers.round}`);
-        return round(answers);
-      }
+      return round(answers);
     })
     .then((answers) => {
       return choseThreeCards(answers);
     })
     .then((answers) => {
-      if (answers.ai.HP <= 0) {
-        console.log("you win!");
-        return thanks();
-      } else if (answers.player.HP <= 0) {
-        console.log("you lose!");
-        return thanks();
-      } else if (answers.player.HP <= 0 && answers.ai.HP <= 0) {
-        console.log("its a draw");
-        return thanks();
-      } else if (answers.player.HP > 0 && answers.ai.HP > 0) {
-        console.log(`Round ${answers.round}`);
-        return round(answers);
-      }
+      return round(answers);
     })
     .then((answers) => {
       return choseThreeCards(answers);
     })
     .then((answers) => {
-      if (answers.ai.HP <= 0) {
-        console.log("you win!");
-        return thanks();
-      } else if (answers.player.HP <= 0) {
-        console.log("you lose!");
-        return thanks();
-      } else if (answers.player.HP <= 0 && answers.ai.HP <= 0) {
-        console.log("its a draw");
-        return thanks();
-      } else if (answers.player.HP > 0 && answers.ai.HP > 0) {
-        console.log(`Round ${answers.round}`);
-        return round(answers);
-      }
+      return round(answers);
     })
     .then((answers) => {
       return choseThreeCards(answers);
     })
     .then((answers) => {
-      if (answers.ai.HP <= 0) {
-        console.log("you win!");
-        return thanks();
-      } else if (answers.player.HP <= 0) {
-        console.log("you lose!");
-        return thanks();
-      } else if (answers.player.HP <= 0 && answers.ai.HP <= 0) {
-        console.log("its a draw");
-        return thanks();
-      } else if (answers.player.HP > 0 && answers.ai.HP > 0) {
-        console.log(`Round ${answers.round}`);
-        return round(answers);
-      }
+      return round(answers);
     })
     .then((answers) => {
       return choseThreeCards(answers);
     })
     .then((answers) => {
-      if (answers.ai.HP <= 0) {
-        console.log("you win!");
-        return thanks();
-      } else if (answers.player.HP <= 0) {
-        console.log("you lose!");
-        return thanks();
-      } else if (answers.player.HP <= 0 && answers.ai.HP <= 0) {
-        console.log("its a draw");
-        return thanks();
-      } else if (answers.player.HP > 0 && answers.ai.HP > 0) {
-        console.log(`Round ${answers.round}`);
-        return round(answers);
-      }
+      return round(answers);
     })
     .then((answers) => {
       return choseThreeCards(answers);
     })
     .then((answers) => {
-      if (answers.ai.HP <= 0) {
-        console.log("you win!");
-        return thanks();
-      } else if (answers.player.HP <= 0) {
-        console.log("you lose!");
-        return thanks();
-      } else if (answers.player.HP <= 0 && answers.ai.HP <= 0) {
-        console.log("its a draw");
-        return thanks();
-      } else if (answers.player.HP > 0 && answers.ai.HP > 0) {
-        console.log(`Round ${answers.round}`);
-        return round(answers);
-      }
+      return round(answers);
     })
     .catch((err) => {
       console.log(err);
