@@ -20,7 +20,7 @@ exports.startGame = () => {
       blockForSeconds(1);
       console.log(`Hello ${answers.name}`);
       blockForSeconds(1);
-      console.log(`${answers.name} you actualy think you can win?`);
+      console.log(`${answers.name} you actually think you can win?`);
       blockForSeconds(1);
       console.log("Ha!");
       blockForSeconds(1);
