@@ -1,5 +1,7 @@
 const inquirer = require("inquirer");
+const clear = require("clear");
 const { Mage } = require("../game_classes/mage");
+const { blockForSeconds } = require("./block");
 
 const welcome = [
   {
@@ -14,22 +16,20 @@ exports.startGame = () => {
   return inquirer
     .prompt(welcome)
     .then((answers) => {
-      // setTimeout(() => {
+      clear();
+      blockForSeconds(1);
       console.log(`Hello ${answers.name}`);
-      // }, 1000);
-      // setTimeout(() => {
+      blockForSeconds(1);
       console.log(`${answers.name} you actualy think you can win?`);
-      // }, 2000);
-      // setTimeout(() => {
+      blockForSeconds(1);
       console.log("Ha!");
-      // }, 3000);
-      // setTimeout(() => {
+      blockForSeconds(1);
       console.log("then let's begin");
-      // }, 4000);
+      blockForSeconds(2);
+      clear();
       return answers;
     })
     .then((answers) => {
-      // setTimeout(() => {
       //create ai
       answers.ai = new Mage();
       answers.ai.getHand();
@@ -40,6 +40,5 @@ exports.startGame = () => {
       //start round
       answers.round = 1;
       return answers;
-      // }, 5000);
     });
 };

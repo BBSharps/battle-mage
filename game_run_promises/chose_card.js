@@ -1,5 +1,5 @@
 const inquirer = require("inquirer");
-
+const clear = require("clear");
 let saveAnswers = {};
 
 exports.choseCards = (answers) => {
@@ -21,9 +21,10 @@ exports.choseCards = (answers) => {
       },
     ])
     .then((answers) => {
-      //run choices 1, pick a card,
+      //pick a card,
       const card = answers.cardChoice.slice(1, -1);
       saveAnswers.player.useCard(card);
+      clear();
       return saveAnswers;
     });
 };

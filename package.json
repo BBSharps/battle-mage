@@ -8,6 +8,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "clear": "^0.1.0",
     "inquirer": "^8.2.5",
     "install": "^0.13.0",
     "npm": "^9.1.3"

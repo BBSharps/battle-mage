@@ -1,6 +1,8 @@
 const inquirer = require("inquirer");
 const { startGame } = require("./start_game");
 const { thanks } = require("./thanks");
+const { rules } = require("./rules");
+const clear = require("clear");
 
 const beginGame = [
   {
@@ -12,10 +14,11 @@ const beginGame = [
 ];
 
 exports.title = () => {
+  clear();
   console.log("Welcome to battle Mage");
   return inquirer.prompt(beginGame).then((answers) => {
     if (answers.rules === "View the rules") {
-      return console.log("rules");
+      return rules();
     } else if (answers.rules === "Play Battle Mage") {
       return startGame();
     } else if (answers.rules === "Exit") {
