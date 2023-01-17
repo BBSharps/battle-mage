@@ -2,8 +2,8 @@
 
 ## To run Battle Mage: <br>
 in VSCode and in terminal<br>
-$git clone https://github.com/BBSharps/BattleMage.git <br>
-change directory to /BattleMage <br>
+$git clone https://github.com/BBSharps/battle-mage.git <br>
+change directory to /battle-mage <br>
 $npm install <br>
 $node run_game.js <br>
 
